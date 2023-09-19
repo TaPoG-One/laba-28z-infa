@@ -1,0 +1,15 @@
+A = int(input('Введите ваш возраст '))
+p=0
+n=0
+while A >= 0:
+    if  A in range(5):  
+        print("Итогo: 0")
+    elif A in range(5,65):
+            print("Итогo: 5000 рублей")
+    elif A in range(65,70):
+            print("С вас 7000 рублей")
+    else:
+            print("С вас 9000 рублей")
+    A = int(input('Введите ваш возраст '))
+    if A == 'стоп':
+        break
